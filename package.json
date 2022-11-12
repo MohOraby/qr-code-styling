@@ -35,7 +35,7 @@
     "webpack-merge": "^5.7.3"
   },
   "scripts": {
-    "build": "webpack --mode=production --config webpack.config.build.js",
+    "build": "tsc",
     "build:dev": "webpack --mode=development --config webpack.config.build.js",
     "prepare": "npm run build",
     "test": "jest",
